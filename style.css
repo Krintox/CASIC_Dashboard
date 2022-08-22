@@ -3,7 +3,7 @@
 
 /*---------------Root variables-------------*/
 :root {
-    --color-primary: #7380ec;
+    --color-primary: #fd7e14;
     --color-danger: #ff7782;
     --color-success: #41f1b6;
     --color-warning: #ffbb55;
@@ -122,7 +122,7 @@ b {
     color: var(--color-primary);
 }
 .danger {
-    color: var(--color-danger);
+    color: var(--color-primary);
 }
 .success {
     color: var(--color-success);
@@ -203,7 +203,7 @@ aside .sidebar a:hover span {
     margin-left: 1rem;
 }
 aside .sidebar .message-count{
-    background: var(--color-danger);
+    background: var(--color-primary);
     color: var(--color-white);
     padding: 2px 10px;
     font-size: 11px;
@@ -248,10 +248,10 @@ main .insights > div span {
     font-size: 2rem;
 }
 main .insights > div.expenses span {
-    background: var(--color-danger);
+    background: var(--color-primary);
 }
 main .insights > div.income span {
-    background: var(--color-success);
+    background: var(--color-primary);
 }
 main .insights > div .middle {
     display: flex;
@@ -441,10 +441,10 @@ main .recent-orders a{
     display: flex;
 }
 .right .sales-analytics .item.offline .icon {
-    background: var(--color-danger);
+    background: var(--color-primary);
 }
 .right .sales-analytics .item.tasks .icon {
-    background: var(--color-success);
+    background: var(--color-primary);
 }
 .right .sales-analytics .add-product {
     background-color: transparent;
@@ -602,11 +602,4 @@ main .recent-orders a{
     .right .top button span {
         font-size: 2rem;
     }
-} 
-    
-
-
-
-
-
-
+}
